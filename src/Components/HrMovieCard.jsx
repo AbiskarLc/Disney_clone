@@ -4,9 +4,9 @@ const HrMovieCard = ({list,index,genreId}) => {
     
   const IMAGE_BASE_URL = "http://image.tmdb.org/t/p/original";
   return (
-    <div className=' flex-shrink-0 flex gap-1 flex-col w-auto md:w-[300px] md:h-[250px] cursor-pointer hover:scale-90  transition duration-200'>
+    <div className=' flex-shrink-0 flex gap-1  flex-col w-[200px] md:w-[300px] md:h-[250px] cursor-pointer hover:scale-90  transition duration-200'>
     <img
-    className="w-[200px] flex-shrink-0 md:w-[300px] h-auto md:h-[200px] rounded-lg border-2 border-gray-700 hover:border-white cursor-pointer"
+    className="w-[200px] flex-shrink-0 md:w-[300px]  md:h-[200px] rounded-lg border-2 border-gray-700 hover:border-white cursor-pointer"
     src={`${IMAGE_BASE_URL}${list.backdrop_path}`}
 alt={`image no ${index} of ${genreId}`}
     srcSet=""

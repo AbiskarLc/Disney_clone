@@ -9,6 +9,7 @@ const Home = () => {
         <Slider/>
         <Production/>
         <GenreMoviesLists/>
+        <p>I have added a movie list</p>
     </div>
   )
 }
